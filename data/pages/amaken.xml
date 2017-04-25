@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Thu, 16 Mar 2017 11:48:27 +0330</pubDate><title><![CDATA[اماکن گردشگری]]></title><url><![CDATA[amaken]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[اماکن گردشگری]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p dir=&quot;RTL&quot; style=&quot;text-align: justify;&quot;&gt;شهر قزوین یکی از بیست شهر استان قزوین و مرکز این استان است. این شهر در فاصله ۱۳۰ کیلومتری پایتخت قرار گرفته و از طریق بزرگراه و خط آهن از یک سو به تهران و از سوی دیگر به آذربایجان متصل می‌شود. طبق سرشماری سال ۱۳۹۰، جمعیت شهر قزوین بالغ بر ۳۸۱ هزارنفر است که حدود ۳۲ درصد از جمعیت یک میلیون و دویست هزارنفری استان قزوین را شامل می‌شود. اقتصاد این شهر از قدیم‌الایام مبتنی بر کشاورزی و بازرگانی بوده و در دوره معاصر، بخش‌ صنعت و خدمات نیز از رونق قابل توجهی برخوردار شده‌اند&lt;/p&gt;
+
+&lt;table style=&quot;text-align: center;&quot; width=&quot;100%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr style=&quot;height:50px&quot;&gt;
+			&lt;td style=&quot;width:50%&quot;&gt;&lt;a href=&quot;/wifi/index.php?id=parks&quot; style=&quot;color: #00f;&quot;&gt;اماکن تفریحی و پارکها&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&quot;height:50px&quot;&gt;
+			&lt;td&gt;&lt;a href=&quot;/wifi/index.php?id=tarikhi&quot; style=&quot;color: #00f;&quot;&gt;اماکن تاریخی&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&quot;height:50px&quot;&gt;
+			&lt;td&gt;&lt;a href=&quot;/wifi/index.php?id=ziarati&quot; style=&quot;color: #00f;&quot;&gt;اماکن زیارتی&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[shahami]]></author><menuOrder><![CDATA[5]]></menuOrder></item>

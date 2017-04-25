@@ -1,0 +1,5 @@
+<IfModule mod_access_compat.c>
+order deny,allow
+deny from all
+allow from 192.168.0.1
+</IfModule>

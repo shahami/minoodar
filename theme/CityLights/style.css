@@ -1,0 +1,257 @@
+/****************************************************
+* style.css
+* CityLights theme for GetSimple CMS
+*****************************************************/
+
+
+/****************************************************
+* overall page formatting
+*****************************************************/
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 300px;
+  min-width: 300px;
+  direction: rtl;
+}
+
+@font-face {
+	font-family: 'Sahel';
+	src: url('/wifi/fonts/Sahel.eot?#iefix') format('embedded-opentype'), url('/wifi/fonts/Sahel.woff') format('woff'), url('/wifi/fonts/Sahel.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  height: 100%;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  overflow: hidden;
+  z-index: -1;
+  
+  /* background image url defined in html to use relative paths */
+  background: #1D2647;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+.main {
+  margin-bottom: 40px;
+  padding-top: 10px;
+  background: #FFF;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+@media (max-width: 767px) {
+  .main {
+    margin-bottom: 0;
+  }
+}
+
+.article {
+  padding: 0 20px;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 9px;
+}
+
+
+/****************************************************
+* splash page
+*****************************************************/
+
+.splash {
+  height: 100%;
+  text-align: center;
+}
+
+.splash-spacer {
+  height: 12%;
+  min-height: 80px;
+}
+
+.splash-logo {
+  color: #ffa954;
+  font-size: 36px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+@media (min-width: 480px) {
+  .splash-logo {
+    font-size: 46px;
+  }
+}
+
+@media (min-width: 768px) {
+  .splash-logo {
+    font-size: 56px;
+  }
+}
+
+@media (min-width: 992px) {
+  .splash-logo {
+    font-size: 64px;
+  }
+}
+
+.splash-logo img {
+  max-height: 20%;
+  max-width: 90%;
+}
+
+.splash-blurb {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #FFF;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.splash-logo,
+.splash-text {
+  font-family: Sahel, sans-serif;
+//  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .splash-blurb {
+    font-size: 22px;
+  }
+}
+
+/* used when splash page not present */
+.spacer {
+  height: 50px;
+}
+
+
+/****************************************************
+* sidebar
+*****************************************************/
+
+.sidebar {
+  text-align: center;
+  font-size: 12px;
+}
+
+.sidebar hr {
+  width: 90%;
+  border-color: #ffa954;
+}
+
+.social-icons {
+  display: inline-block;
+  margin: 0 -10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 10px 5px 0 5px;
+}
+
+.social-icons img {
+  width: 32px;
+}
+
+
+/****************************************************
+* visibility conditionals (mutually exclusive)
+*****************************************************/
+
+@media (min-width: 768px) {
+  .show-small {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .show-large {
+    display: none;
+  }
+}
+
+
+/****************************************************
+* navbar
+*****************************************************/
+
+.navbar-brand img {
+  height: 20px;
+}
+
+/* transitions - main background */
+
+.navbar-default {
+  background-image: -webkit-linear-gradient(top, rgba(44, 57, 107, 1) 0%, transparent 100%);
+  background-image: -o-linear-gradient(top, rgba(44, 57, 107, 1) 0%, transparent 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 57, 107, 1)), to(transparent));
+  background-image: linear-gradient(to bottom, rgba(44, 57, 107, 1) 0%, transparent 100%);
+  -webkit-transition: background-color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+  transition: background-color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.navbar-default.navbar-transparent {
+  border-color: transparent;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* transitions - current location */
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a {
+  background-image: none; /* no gradient supported */
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.navbar-default.navbar-transparent .navbar-nav > .open > a,
+.navbar-default.navbar-transparent .navbar-nav > .active > a {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* transitions - when menu is opened while navbar is transparent */
+
+.navbar-default.navbar-transparent .navbar-collapse.collapsing,
+.navbar-default.navbar-transparent .navbar-collapse.in {
+  background-image: -webkit-linear-gradient(top, rgba(44, 57, 107, 1) 0%, transparent 100%);
+  background-image: -o-linear-gradient(top, rgba(44, 57, 107, 1) 0%, transparent 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 57, 107, 1)), to(transparent));
+  background-image: linear-gradient(to bottom, rgba(44, 57, 107, 1) 0%, transparent 100%);
+  background-color: #1d2647;
+}
+
+.navbar-default.navbar-transparent .navbar-collapse.collapsing .navbar-nav > .active > a,
+.navbar-default.navbar-transparent .navbar-collapse.in .navbar-nav > .active > a {
+  background-color: #13192f;
+}
+
+/* transitions - hide branding while transparent */
+
+.navbar-default .navbar-brand {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.4s ease;
+}
+
+.navbar-default.navbar-transparent .navbar-brand {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s ease, visibility 0s ease 0.4s;
+}

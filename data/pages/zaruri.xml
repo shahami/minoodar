@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Thu, 16 Mar 2017 11:56:34 +0330</pubDate><title><![CDATA[اطلاعات ضروری]]></title><url><![CDATA[zaruri]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[اطلاعات ضروری]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p style=&quot;text-align: justify;&quot;&gt;شاید یکی از مهمترین اطلاعاتی که مسافرین در سفر به آن نیاز داشته باشند داشتن شماره تلفن های ضروری نظیر داروخانه ها ، بیمارستانها ، امدادخودرو و خیلی از موارد باشد . همچنین اسکان و دسترسی راحت به محل های استقرار مطمئن از مسائل مهم برای مسافرین میباشد .&lt;/p&gt;
+
+&lt;table style=&quot;text-align: center;&quot; width=&quot;100%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr style=&quot;height:50px&quot;&gt;
+			&lt;td&gt;&lt;a href=&quot;/wifi/index.php?id=eskan&quot; style=&quot;padding: 20px; color: #00f;&quot;&gt;اسکان نوروزی&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr style=&quot;height:50px&quot;&gt;
+			&lt;td&gt;&lt;a href=&quot;/wifi/index.php?id=tel&quot; style=&quot;color: #00f;&quot;&gt;تلفن های مهم&lt;/a&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[shahami]]></author><menuOrder><![CDATA[6]]></menuOrder></item>

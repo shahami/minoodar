@@ -1,0 +1,32 @@
+[01-Aug-2016 00:05:59 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:05:59 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:05:59 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:05:59 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:05:59 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:05:59 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:05:59 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:05:59 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:22 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:10:26 Asia/Tehran] PHP Warning:  chmod(): Operation not permitted in /var/www/html/getsimple/admin/install.php on line 44
+[01-Aug-2016 00:11:15 Asia/Tehran] PHP Warning:  rename(/var/www/html/getsimple/temp.gsconfig.php,/var/www/html/getsimple/gsconfig.php): Permission denied in /var/www/html/getsimple/admin/setup.php on line 145
+[03-Aug-2016 01:05:53 Asia/Tehran] PHP Warning:  file_put_contents(/var/www/html/getsimple/sitemap.xml): failed to open stream: Permission denied in /var/www/html/getsimple/admin/inc/basic.php on line 315
